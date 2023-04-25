@@ -47,7 +47,7 @@ pip install Causal-VLReasoning
 
 # Documentation
 
-Please kindly refer to [Causal-VLReasoning Doc](https://github.com/YangLiu9208/Causal-VLReasoning) for detailed tutorials and usages.
+Please kindly refer to [Causal-VLReasoning Doc](https://link.springer.com/article/10.1007/s11633-022-1362-z) for detailed tutorials and usages.
 
 # Running examples
 
