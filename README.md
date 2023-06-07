@@ -93,6 +93,12 @@ Benchmarks:
   year={2023}
   doi={10.1109/TPAMI.2023.3284038}
 }
+@article{liu2022cross,
+  title={Cross-modal causal relational reasoning for event-level visual question answering},
+  author={Liu, Yang and Li, Guanbin and Lin, Liang},
+  journal={arXiv preprint arXiv:2207.12647},
+  year={2022}
+}
 ```
 
 ### [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf):   
