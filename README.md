@@ -55,6 +55,13 @@ For causal discovery, there are various running examples in the **‘tests’** 
 
 For the implemented modules, we provide unit tests for the convenience of developing your own methods.
 
+# Review Paper
+[Causal Reasoning Meets Visual Representation Learning: A Prospective Study](https://link.springer.com/article/10.1007/s11633-022-1362-z)
+Machine Intelligence Research (MIR) 2022   
+A Review paper for causal reasoning and visual representation learning    
+![Image](MIR.png)
+Overview of the structure of this paper, including the discussion of related methods, datasets, challenges, and the relations among causal reasoning, visual representation learning, and their integration. 
+
 # Exemplar Tasks and Benchmarks
 
 ### VideoQA Task  
