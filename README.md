@@ -1,5 +1,6 @@
 # Causal-VLReasoning
-Visual-Linguistic Causal Learning Open-source Framework
+## Visual-Linguistic Causal Learning Open-source Framework   
+[HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning     
 
 Causal-VLReasoning is a python open-source framework for causal discovery that implements state-of-the-art causal discovery algorithms for visual-linguistic reasoning, such as VQA, Image/Video Captioning, Medical Report Generation, etc. 
 
@@ -65,7 +66,7 @@ Overview of the structure of this paper, including the discussion of related met
 # Exemplar Tasks and Benchmarks
 
 ## VideoQA Task  
-### TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering:   
+### [TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering](https://arxiv.org/pdf/2207.12647.pdf):   
 ![Image](Images/CMCIR.gif)        
 Framework of the CMCIR.       
 
@@ -73,13 +74,20 @@ Framework of the CMCIR.
 Benchmarks:    
 [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
-### Visual Causal Scene Refinement for Video Question Answering:   
+### [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf):   
 ![Image](Images/VCSR.png)        
 Framework of the CMCIR.    
 
 [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf)    
 Benchmarks:    
 [NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
+
+## Model Generalization and Robustness
+### [CVPR 2023: Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiao_Masked_Images_Are_Counterfactual_Samples_for_Robust_Fine-Tuning_CVPR_2023_paper.pdf):   
+![Image](Images/CVPR23.gif)        
+Conceptual comparison of pre-trained and fine-tuned models on what they depend on for predicting the semantic label of different samples.      
+
+[Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://github.com/Coxy7/robust-finetuning)        
 
 ### Medical Report Generation Task  
 ### Visual Causal Intervention for Radiology Report Generation:      
