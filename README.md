@@ -64,8 +64,8 @@ Overview of the structure of this paper, including the discussion of related met
 
 # Exemplar Tasks and Benchmarks
 
-### VideoQA Task  
-TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering:   
+## VideoQA Task  
+### TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering:   
 ![Image](Images/CMCIR.gif)        
 Framework of the CMCIR.       
 
@@ -73,7 +73,7 @@ Framework of the CMCIR.
 Benchmarks:    
 [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
-Visual Causal Scene Refinement for Video Question Answering:   
+### Visual Causal Scene Refinement for Video Question Answering:   
 ![Image](Images/VCSR.png)        
 Framework of the CMCIR.    
 
@@ -82,7 +82,7 @@ Benchmarks:
 [NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
 ### Medical Report Generation Task  
-Visual Causal Intervention for Radiology Report Generation:      
+### Visual Causal Intervention for Radiology Report Generation:      
 ![Image](Images/VLCI.gif)        
 Framework of the CMCIR.    
 
