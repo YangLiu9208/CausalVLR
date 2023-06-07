@@ -7,8 +7,8 @@ The framework is actively being developed. Feedbacks (issues, suggestions, etc.)
 
 # Framework Overview
 
-![Image](Opensource.png)        
-Figure 1: Framework of Causal-VLReasoning.
+![Image](Images/Opensource.png)        
+Framework of Causal-VLReasoning.
 
 Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
 
@@ -59,14 +59,14 @@ For the implemented modules, we provide unit tests for the convenience of develo
 [Causal Reasoning Meets Visual Representation Learning: A Prospective Study](https://link.springer.com/article/10.1007/s11633-022-1362-z)     
 Machine Intelligence Research (MIR) 2022      
 A Review paper for causal reasoning and visual representation learning       
-![Image](MIR.png)    
+![Image](Images/MIR.png)    
 Overview of the structure of this paper, including the discussion of related methods, datasets, challenges, and the relations among causal reasoning, visual representation learning, and their integration. 
 
 # Exemplar Tasks and Benchmarks
 
 ### VideoQA Task  
 TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering:   
-![Image](CMCIR.gif)        
+![Image](Images/CMCIR.gif)        
 Framework of the CMCIR.       
 
 [Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://github.com/YangLiu9208/CMCIR)    
@@ -74,7 +74,7 @@ Benchmarks:
 [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
 Visual Causal Scene Refinement for Video Question Answering:   
-![Image](VCSR.png)        
+![Image](Images/VCSR.png)        
 Framework of the CMCIR.    
 
 [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf)    
@@ -83,7 +83,7 @@ Benchmarks:
 
 ### Medical Report Generation Task  
 Visual Causal Intervention for Radiology Report Generation:      
-![Image](VLCI.gif)        
+![Image](Images/VLCI.gif)        
 Framework of the CMCIR.    
 
 [Visual-Linguistic Causal Intervention for Radiology Report Generation](https://github.com/WissingChen/VLCI)       
