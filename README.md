@@ -59,17 +59,26 @@ For the implemented modules, we provide unit tests for the convenience of develo
 
 ### VideoQA Task  
 TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering:   
+![Image](CMCIR.gif)        
+Framework of the CMCIR.       
+
 [Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://github.com/YangLiu9208/CMCIR)    
 Benchmarks:    
 [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
 Visual Causal Scene Refinement for Video Question Answering:   
+![Image](VCSR.png)        
+Framework of the CMCIR.    
+
 [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf)    
 Benchmarks:    
 [NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
 ### Medical Report Generation Task  
-Visual Causal Intervention for Radiology Report Generation:        
+Visual Causal Intervention for Radiology Report Generation:      
+![Image](VLCI.gif)        
+Framework of the CMCIR.    
+
 [Visual-Linguistic Causal Intervention for Radiology Report Generation](https://github.com/WissingChen/VLCI)       
 Benchmarks:    
 IU-Xray, MIMIC-CXR datasets.    
