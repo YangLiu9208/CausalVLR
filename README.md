@@ -62,6 +62,18 @@ Machine Intelligence Research (MIR) 2022
 A Review paper for causal reasoning and visual representation learning       
 ![Image](Images/MIR.png)    
 
+## Citation    
+```
+@article{liu2022causal,
+  title={Causal Reasoning Meets Visual Representation Learning: A Prospective Study},
+  author={Liu, Yang and Wei, Yu-Shen and Yan, Hong and Li, Guan-Bin and Lin, Liang},
+  journal={Machine Intelligence Research},
+  pages={1--27},
+  year={2022},
+  publisher={Springer}
+}
+```
+
 # Exemplar Tasks and Benchmarks
 
 ## VideoQA Task  
@@ -72,6 +84,17 @@ A Review paper for causal reasoning and visual representation learning
 Benchmarks:    
 [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
+## Citation
+```
+@article{CMCIR,
+  title={Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering},
+  author={Liu, Yang and Li, Guanbin and Lin, Liang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023}
+  doi={10.1109/TPAMI.2023.3284038}
+}
+```
+
 ### [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf):   
 ![Image](Images/VCSR.png)          
 
@@ -79,11 +102,32 @@ Benchmarks:
 Benchmarks:    
 [NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
 
+## Citation    
+```
+@article{wei2023visual,
+  title={Visual Causal Scene Refinement for Video Question Answering},
+  author={Wei, Yushen and Liu, Yang and Yan, Hong and Li, Guanbin and Lin, Liang},
+  journal={arXiv preprint arXiv:2305.04224},
+  year={2023}
+}
+```
+
 ## Model Generalization and Robustness
 ### [CVPR 2023: Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiao_Masked_Images_Are_Counterfactual_Samples_for_Robust_Fine-Tuning_CVPR_2023_paper.pdf):   
 ![Image](Images/CVPR23.png)          
 
 [Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://github.com/Coxy7/robust-finetuning)        
+
+## Citation    
+```
+@inproceedings{xiao2023masked,
+  title={Masked Images Are Counterfactual Samples for Robust Fine-tuning},
+  author={Xiao, Yao and Tang, Ziyi and Wei, Pengxu and Liu, Cong and Lin, Liang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20301--20310},
+  year={2023}
+}
+```
 
 ## Medical Report Generation Task  
 ### Visual Causal Intervention for Radiology Report Generation:      
@@ -92,6 +136,16 @@ Benchmarks:
 [Visual-Linguistic Causal Intervention for Radiology Report Generation](https://github.com/WissingChen/VLCI)       
 Benchmarks:    
 IU-Xray, MIMIC-CXR datasets.    
+
+## Citation    
+```
+@article{chen2023visual,
+  title={Visual-linguistic causal intervention for radiology report generation},
+  author={Chen, Weixing and Liu, Yang and Wang, Ce and Li, Guanbin and Zhu, Jiarui and Lin, Liang},
+  journal={arXiv preprint arXiv:2303.09117},
+  year={2023}
+}
+```
 
 Please feel free to let us know if you have any recommendation regarding datasets with high-quality. We are grateful for any effort that benefits the development of causality community.
 
