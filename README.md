@@ -89,7 +89,7 @@ Conceptual comparison of pre-trained and fine-tuned models on what they depend o
 
 [Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://github.com/Coxy7/robust-finetuning)        
 
-### Medical Report Generation Task  
+## Medical Report Generation Task  
 ### Visual Causal Intervention for Radiology Report Generation:      
 ![Image](Images/VLCI.gif)        
 Framework of the CMCIR.    
