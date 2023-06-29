@@ -1,15 +1,87 @@
-# Causal-VLReasoning
-## Visual-Linguistic Causal Learning Open-source Framework   
-[HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning     
 
-Causal-VLReasoning is a python open-source framework for causal discovery that implements state-of-the-art causal discovery algorithms for visual-linguistic reasoning, such as VQA, Image/Video Captioning, Medical Report Generation, etc. 
+<div align="center">
+  <div align="center">
+      <a href="https://www.sysu-hcp.net/">
+      <img src="Images/hcp.jpg" width="170"/>
+      </a>
+    <a href="">
+    <img src="Images/CVLR.jpg" width="400"/>
+    </a>
+  </div>
 
-The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
+  
+[![PyPI](https://img.shields.io/pypi/v/0.0.1)]()
+[![docs](https://img.shields.io/badge/docs-latest-blue)]()
+[![badge](https://github.com/open-mmlab/mmdetection/workflows/build/badge.svg)](https://github.com/open-mmlab/mmdetection/actions)
+[![license](https://img.shields.io/github/license/open-mmlab/mmdetection.svg)](https://github.com/open-mmlab/mmdetection/blob/main/LICENSE)
+[![open issues](https://isitmaintained.com/badge/open/open-mmlab/mmdetection.svg)](https://github.com/open-mmlab/mmdetection/issues)
+[![issue resolution](https://isitmaintained.com/badge/resolution/open-mmlab/mmdetection.svg)](https://github.com/open-mmlab/mmdetection/issues)
+
+[📘Documentation]() |
+[🛠️Installation]() |
+[👀Model Zoo]() |
+[🆕Update News]() |
+[🚀Ongoing Projects]() |
+[🤔Reporting Issues]()
+
+</div>
+
+
+
+# Introduction  
+<div>
+Causal-VLReasoning is a python open-source framework based on PyTorch for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, detail see on <a hraf="">Documentation</a>.
+<p> </p>
+</div>
+
+<details open>
+<summary>Major features</summary>
+
+- **Modular Design**
+
+  We decompose the causal framework of visual-linguistic tasks into different components and one can easily construct a customized causal-reasoning framework by combining different modules.
+
+- **Support of multiple tasks**
+
+  The toolbox directly supports multiple visual-linguistic reasoning tasks such as **VQA**, **Image/Video Caption**, **Medical Report Generation**, **Model Generalization and Robustness** and so on.
+
+- **State of the art**
+
+  The toolbox stems from the codebase developed by the HCPLab team, who dedicated to solving a variety of complex logic tasks through causal reasoning, and we keep pushing it forward.
+
+</details>
+
+
+
+<style type="text/css" rel="stylesheet">
+  .admonition_note {
+  margin: 0px 0px 12px;
+  padding: 6px;
+  color: #404040;
+  background-color: #E7F2FA;
+  }
+  
+  .admonition_title {
+  margin: -6px -6px 6px;
+  padding: 3px 6px;
+  color: #FFFFFF;
+  background-color: #6AB0DE;
+  }
+</style>
+
+<div class="admonition_note">
+<p class="admonition_title">❕ Note</p>
+<p>The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.</p>
+</div>
 
 # Framework Overview
 
-![Image](Images/Opensource.png)        
+<div align="center"><font size=4>
 Framework of Causal-VLReasoning.
+</font>
+</div>
+
+![Image](Images/Opensource.png)        
 
 Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
 
@@ -20,41 +92,80 @@ Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
 * General causal discovery methods.
 * Multiple utilities for building your own method, such as independence tests, score functions, graph operations, and evaluations.
 
-# Install
+# What's New
 
-Causal-VLReasoning needs the following packages to be installed beforehand:
+### 🔥 **2023.6.29**.
+**v0.0.1** was released in 6/30/2023:
 
-* python 3
-* numpy
-* networkx
-* pandas
-* scipy
-* scikit-learn
-* statsmodels
-* pydot
-* pytorch
+- Release Causal-VLReasoning 0.0.1 official version
+- Add [Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://github.com/YangLiu9208/CMCIR) 
 
-(For visualization)
+<style>
+.tab_center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
 
-* matplotlib
-* graphviz
+<p align="center"><font size=2.>Performance of CMCIR</font></p>
 
-To use Causal-VLReasoning, we could install it using [pip](https://pypi.org/project/Causal-VLReasoning/):
+<div class="tab_center">
+
+| Dataset   | What | Why  | How  | When | Where | All  |
+| --------- | ---- | ---  | ---- |----- |-------| ---- |
+| MSVD-QA   | 33.1 | 58.9 | 84.3 | 77.5 | 42.8  | 43.7 |
+| MSRVTT-QA | 32.2 | 50.2 | 82.3 | 78.4 | 38.0  | 38.9 |
+</div>
+
+<div align=center>
+<img src="Images/CMCIR.gif"/>
+</div>
+
+# Getting Started
+Please see Overview for the general introduction of [Causal-VLReasoning]().
+
+For detailed user guides and advanced guides, please refer to our [documentation]().
+
+  
+![Image](Images/framework.png) 
+
+## Installation
+
+Please refer to Installation for [installation]() instructions.
+
+Briefly, to use Causal-VLReasoning, we could install it using [pip](https://pypi.org/project/Causal-VLReasoning/):
 
 ```
 pip install Causal-VLReasoning
 ```
 
-
-# Documentation
-
-Please kindly refer to [Causal-VLReasoning Doc](https://link.springer.com/article/10.1007/s11633-022-1362-z) for detailed tutorials and usages.
-
-# Running examples
+## Running examples
 
 For causal discovery, there are various running examples in the **‘tests’** directory.
 
 For the implemented modules, we provide unit tests for the convenience of developing your own methods.
+
+# Overview of Benchmark and Model Zoo
+
+Please feel free to let us know if you have any recommendation regarding datasets with high-quality. We are grateful for any effort that benefits the development of causality community.
+
+<div class="tab_center">
+
+|Task | Model | Benchmark |
+| --- | ----- | --------- |
+| VQA |       |           |
+| MRG |       |           |
+</div>
+
+# FQA
+
+# Contribution
+
+Please feel free to open an issue if you find anything unexpected.
+We are always targeting to make our community better!
 
 # Review Paper
 [Causal Reasoning Meets Visual Representation Learning: A Prospective Study](https://link.springer.com/article/10.1007/s11633-022-1362-z)     
@@ -62,7 +173,6 @@ Machine Intelligence Research (MIR) 2022
 A Review paper for causal reasoning and visual representation learning       
 ![Image](Images/MIR.png)    
 
-## Citation    
 ```
 @article{liu2022causal,
   title={Causal Reasoning Meets Visual Representation Learning: A Prospective Study},
@@ -74,94 +184,7 @@ A Review paper for causal reasoning and visual representation learning
 }
 ```
 
-# Exemplar Tasks and Benchmarks
-
-## VideoQA Task  
-### [TPAMI 2023: Cross-modal Causal Intervention for Event-level Video Question Answering](https://arxiv.org/pdf/2207.12647.pdf):   
-![Image](Images/CMCIR.gif)        
-
-[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://github.com/YangLiu9208/CMCIR)    
-Benchmarks:    
-[SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering) and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
-
-## Citation
-```
-@article{CMCIR,
-  title={Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering},
-  author={Liu, Yang and Li, Guanbin and Lin, Liang},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2023}
-  doi={10.1109/TPAMI.2023.3284038}
-}
-@article{liu2022cross,
-  title={Cross-modal causal relational reasoning for event-level visual question answering},
-  author={Liu, Yang and Li, Guanbin and Lin, Liang},
-  journal={arXiv preprint arXiv:2207.12647},
-  year={2022}
-}
-```
-
-### [Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf):   
-![Image](Images/VCSR.png)          
-
-[Visual Causal Scene Refinement for Video Question Answering](https://arxiv.org/pdf/2305.04224.pdf)    
-Benchmarks:    
-[NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets.      
-
-## Citation    
-```
-@article{wei2023visual,
-  title={Visual Causal Scene Refinement for Video Question Answering},
-  author={Wei, Yushen and Liu, Yang and Yan, Hong and Li, Guanbin and Lin, Liang},
-  journal={arXiv preprint arXiv:2305.04224},
-  year={2023}
-}
-```
-
-## Model Generalization and Robustness
-### [CVPR 2023: Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiao_Masked_Images_Are_Counterfactual_Samples_for_Robust_Fine-Tuning_CVPR_2023_paper.pdf):   
-![Image](Images/CVPR23.png)          
-
-[Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://github.com/Coxy7/robust-finetuning)        
-
-## Citation    
-```
-@inproceedings{xiao2023masked,
-  title={Masked Images Are Counterfactual Samples for Robust Fine-tuning},
-  author={Xiao, Yao and Tang, Ziyi and Wei, Pengxu and Liu, Cong and Lin, Liang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={20301--20310},
-  year={2023}
-}
-```
-
-## Medical Report Generation Task  
-### Visual Causal Intervention for Radiology Report Generation:      
-![Image](Images/VLCI.gif)         
-
-[Visual-Linguistic Causal Intervention for Radiology Report Generation](https://github.com/WissingChen/VLCI)       
-Benchmarks:    
-IU-Xray, MIMIC-CXR datasets.    
-
-## Citation    
-```
-@article{chen2023visual,
-  title={Visual-linguistic causal intervention for radiology report generation},
-  author={Chen, Weixing and Liu, Yang and Wang, Ce and Li, Guanbin and Zhu, Jiarui and Lin, Liang},
-  journal={arXiv preprint arXiv:2303.09117},
-  year={2023}
-}
-```
-
-Please feel free to let us know if you have any recommendation regarding datasets with high-quality. We are grateful for any effort that benefits the development of causality community.
-
-
-# Contribution
-
-Please feel free to open an issue if you find anything unexpected.
-We are always targeting to make our community better!
-
-### Citation
+# Citation    
 If you find this project useful in your research, please consider cite:    
 ```
 @misc{2023Causal-VLReasoning,
@@ -171,3 +194,5 @@ If you find this project useful in your research, please consider cite:
     year={2023}
 }
 ``` 
+# License
+This project is released under the [None]().
