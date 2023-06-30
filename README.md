@@ -9,18 +9,18 @@
   </div>
     </div>
     
-## [HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning: Visual-Linguistic Causal Learning Open-source Framework   
+## CausalVLR: [HCP-Lab's](https://www.sysu-hcp.net/) Visual-Linguistic Causal Learning Open-source Framework   
  
-Causal-VLReasoning is a python open-source framework for causal discovery that implements state-of-the-art causal discovery algorithms for visual-linguistic reasoning, such as VQA, Image/Video Captioning, Medical Report Generation, etc. 
+CausalVLR is a python open-source framework for causal discovery that implements state-of-the-art causal discovery algorithms for visual-linguistic reasoning, such as VQA, Image/Video Captioning, Medical Report Generation, etc. 
 
 The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
 
 # Framework Overview
 
 ![Image](Images/CausalVLReasoning_framework.png)        
-Framework of Causal-VLReasoning.
+Framework of CausalVLR.
 
-Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
+Our CausalVLR implements methods for visual-linguistic causal learning:
 
 * VQA.
 * Image/Video Captioning.
@@ -31,7 +31,7 @@ Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
 
 # Install
 
-Causal-VLReasoning needs the following packages to be installed beforehand:
+CausalVLR needs the following packages to be installed beforehand:
 
 * python 3
 * numpy
@@ -48,16 +48,16 @@ Causal-VLReasoning needs the following packages to be installed beforehand:
 * matplotlib
 * graphviz
 
-To use Causal-VLReasoning, we could install it using [pip](https://pypi.org/project/Causal-VLReasoning/):
+To use CausalVLR, we could install it using [pip](https://pypi.org/project/Causal-VLReasoning/):
 
 ```
-pip install Causal-VLReasoning
+pip install CausalVLR
 ```
 
 
 # Documentation
 
-Please kindly refer to [Causal-VLReasoning Doc](https://link.springer.com/article/10.1007/s11633-022-1362-z) for detailed tutorials and usages.
+Please kindly refer to [CausalVLR Doc](https://link.springer.com/article/10.1007/s11633-022-1362-z) for detailed tutorials and usages.
 
 # Running examples
 
@@ -174,9 +174,9 @@ We are always targeting to make our community better!
 If you find this project useful in your research, please consider cite:    
 ```
 @misc{2023Causal-VLReasoning,
-    title={HCPLab's Visual-Linguistic Causal Learning Open-source Framework and Benchmark},
-    author={Causal-VLReasoning Contributors},
-    howpublished = {\url{https://github.com/YangLiu9208/Causal-VLReasoning}},
+    title={CausalVLR: A Toolbox and Benchmark for Visual-Linguistic Causal Reasoning},
+    author={CausalVLR Contributors},
+    howpublished = {\url{https://github.com/YangLiu9208/CausalVLR}},
     year={2023}
 }
 ``` 
