@@ -15,7 +15,7 @@ CausalVLR is a python open-source framework for causal relation discovery, causa
 
 The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
 
-# Overview of Causal-VLReasoning 
+# Overview of CausalVLR
 
 ![Image](Images/CausalVLReasoning_framework.png)        
 
@@ -51,7 +51,7 @@ CausalVLR needs the following packages to be installed beforehand:
 To use CausalVLR, we could install it using [pip](https://pypi.org/project/CausalVLR/):
 
 ```
-pip install Causal-VLReasoning
+pip install CausalVLR
 ```
 
 
