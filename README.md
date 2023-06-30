@@ -9,9 +9,8 @@
   </div>
     </div>
     
-## Visual-Linguistic Causal Learning Open-source Framework   
-[HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning     
-
+## [HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning: Visual-Linguistic Causal Learning Open-source Framework   
+ 
 Causal-VLReasoning is a python open-source framework for causal discovery that implements state-of-the-art causal discovery algorithms for visual-linguistic reasoning, such as VQA, Image/Video Captioning, Medical Report Generation, etc. 
 
 The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
