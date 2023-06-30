@@ -1,4 +1,14 @@
-# Causal-VLReasoning
+<div align="center">
+  <div align="center">
+      <a href="https://www.sysu-hcp.net/">
+      <img src="Images/HCP.png" width="220"/>
+      </a>
+    <a href="">
+    <img src="Images/LOGO.png" width="400"/>
+    </a>
+  </div>
+    </div>
+    
 ## Visual-Linguistic Causal Learning Open-source Framework   
 [HCP-Lab's](https://www.sysu-hcp.net/) Causal-VLReasoning     
 
@@ -8,7 +18,7 @@ The framework is actively being developed. Feedbacks (issues, suggestions, etc.)
 
 # Framework Overview
 
-![Image](Images/Opensource.png)        
+![Image](Images/CausalVLReasoning_framework.png)        
 Framework of Causal-VLReasoning.
 
 Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
