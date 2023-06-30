@@ -1,7 +1,7 @@
 <div align="center">
   <div align="center">
       <a href="https://www.sysu-hcp.net/">
-      <img src="Images/hcp.png" width="170"/>
+      <img src="Images/HCP.png" width="170"/>
       </a>
     <a href="">
     <img src="Images/LOGO.png" width="400"/>
