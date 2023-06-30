@@ -7,8 +7,7 @@ The framework is actively being developed. Feedbacks (issues, suggestions, etc.)
 
 # Overview of Causal-VLReasoning 
 
-![Image](Images/Opensource.png)        
-Framework of Causal-VLReasoning.
+![Image](Images/CausalVLReasoning_framework.png)        
 
 Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
 
