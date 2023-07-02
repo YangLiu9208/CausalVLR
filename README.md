@@ -2,10 +2,10 @@
 <div align="center">
   <div align="center">
       <a href="https://www.sysu-hcp.net/">
-      <img src="Images/hcp.jpg" width="170"/>
+      <img src="Images/hcp.png" width="350"/>
       </a>
     <a href="">
-    <img src="Images/CVLR.jpg" width="400"/>
+    <img src="Images/CVLR.png" width="350"/>
     </a>
   </div>
 
@@ -26,13 +26,33 @@
 
 </div>
 
+---
+<h2 id="table-of-contents">📄 Table of Contents </h2>
+
+- [📄 Table of Contents](#table-of-contents)
+- [📚 Introduction](#introduction)
+- [🚀 What's New](#whats-new)
+- [👨‍🏫 Get Started](#get-started)
+- [👀 Model Zoo](#model-zoo)
+- [🖊️ Citation](#️citation)
+- [🎫 License](#license)
+- [🙌 Contributing](#contributing)
+- [🤝 Acknowledgement](#acknowledgement)
+- [🏗️ Projects in HCPLab](#️projects-in-hcplab)
 
 
-# Introduction  
+<h2 id="introduction">📚 Introduction <a href="#table-of-contents">🔝</a> </h2>
 <div>
-Causal-VLReasoning is a python open-source framework based on PyTorch for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, detail see on <a hraf="">Documentation</a>.
+Causal-VLR is a python open-source framework based on PyTorch for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, detail see on <a hraf="">Documentation</a>.
 <p> </p>
 </div>
+
+<div align="center"><font size=5>
+Framework Overview
+</font>
+</div>
+
+![Image](Images/Opensource.png)  
 
 <details open>
 <summary>Major features</summary>
@@ -52,79 +72,35 @@ Causal-VLReasoning is a python open-source framework based on PyTorch for causal
 </details>
 
 
+❗ **Note:** The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
 
-<style type="text/css" rel="stylesheet">
-  .admonition_note {
-  margin: 0px 0px 12px;
-  padding: 6px;
-  color: #404040;
-  background-color: #E7F2FA;
-  }
-  
-  .admonition_title {
-  margin: -6px -6px 6px;
-  padding: 3px 6px;
-  color: #FFFFFF;
-  background-color: #6AB0DE;
-  }
-</style>
-
-<div class="admonition_note">
-<p class="admonition_title">❕ Note</p>
-<p>The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.</p>
-</div>
-
-# Framework Overview
-
-<div align="center"><font size=4>
-Framework of Causal-VLReasoning.
-</font>
-</div>
-
-![Image](Images/Opensource.png)        
-
-Our Causal-VLReasoning implements methods for visual-linguistic causal learning:
-
-* VQA.
-* Image/Video Captioning.
-* Medical Report Generation.
-* General causal representation learning.
-* General causal discovery methods.
-* Multiple utilities for building your own method, such as independence tests, score functions, graph operations, and evaluations.
-
-# What's New
+<h2 id="whats-new">🚀 What's New <a href="#table-of-contents">🔝</a> </h2>
 
 ### 🔥 **2023.6.29**.
-**v0.0.1** was released in 6/30/2023:
+- **v0.0.1** was released in 6/30/2023
+- Support [VLCI](projects/VLCI/readme.md) for Medical Report Generation task
 
-- Release Causal-VLReasoning 0.0.1 official version
-- Add [Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://github.com/YangLiu9208/CMCIR) 
+<!-- > - Support [CMCIR](projects/CMCIR/readme.md) (T-PAMI 2023) for Event-Level Visual Question Answering task<-->
+![Image](projects/VLCI/demo1.png)
 
-<style>
-.tab_center
-{
-width: auto;
-display: table;
-margin-left: auto;
-margin-right: auto;
-}
-</style>
 
-<p align="center"><font size=2.>Performance of CMCIR</font></p>
+<div align="center">
 
-<div class="tab_center">
+| Dataset   | B@1 | B@2  | B@3  | B@4 | Meteor | Rough-L | CIDEr |
+| --------- | --- | ---  | ---- |----- |-------| ---- | ---- |
+| IU-Xray   | 32.2 | 50.2 | 82.3 | 78.4 | 38.0  | 38.9 |
+| MIMIC-CXR | 33.1 | 58.9 | 84.3 | 77.5 | 42.8  | 43.7 |
+</div>
+
+<!-- div align="center">
 
 | Dataset   | What | Why  | How  | When | Where | All  |
 | --------- | ---- | ---  | ---- |----- |-------| ---- |
 | MSVD-QA   | 33.1 | 58.9 | 84.3 | 77.5 | 42.8  | 43.7 |
 | MSRVTT-QA | 32.2 | 50.2 | 82.3 | 78.4 | 38.0  | 38.9 |
-</div>
+</div -->
 
-<div align=center>
-<img src="Images/CMCIR.gif"/>
-</div>
-
-# Getting Started
+<h2 id="get-started">👨‍🏫 Getting Started <a href="#table-of-contents">🔝</a> </h2>
 Please see Overview for the general introduction of [Causal-VLReasoning]().
 
 For detailed user guides and advanced guides, please refer to our [documentation]().
@@ -134,7 +110,7 @@ For detailed user guides and advanced guides, please refer to our [documentation
 
 ## Installation
 
-Please refer to Installation for [installation]() instructions.
+Please refer to Installation for [installation]() instructions in documentation .
 
 Briefly, to use Causal-VLReasoning, we could install it using [pip](https://pypi.org/project/Causal-VLReasoning/):
 
@@ -148,21 +124,19 @@ For causal discovery, there are various running examples in the **‘tests’** 
 
 For the implemented modules, we provide unit tests for the convenience of developing your own methods.
 
-# Overview of Benchmark and Model Zoo
+<h2 id="model-zoo">👀 Model Zoo <a href="#table-of-contents">🔝</a> </h2>
 
 Please feel free to let us know if you have any recommendation regarding datasets with high-quality. We are grateful for any effort that benefits the development of causality community.
 
-<div class="tab_center">
+<div align="center">
 
 |Task | Model | Benchmark |
 | --- | ----- | --------- |
-| VQA |       |           |
-| MRG |       |           |
+| VQA |  CMCIR     |           |
+| MRG |  VLCI     |    IU-Xray, MIMIC-CXR       |
 </div>
 
-# FQA
-
-# Contribution
+<h2 id="contribution"> 🙌 Contribution <a href="#table-of-contents">🔝</a> </h2>
 
 Please feel free to open an issue if you find anything unexpected.
 We are always targeting to make our community better!
@@ -184,7 +158,7 @@ A Review paper for causal reasoning and visual representation learning
 }
 ```
 
-# Citation    
+<h2 id="citation"> 🖊️ Citation <a href="#table-of-contents">🔝</a> </h2>   
 If you find this project useful in your research, please consider cite:    
 ```
 @misc{2023Causal-VLReasoning,
@@ -194,5 +168,5 @@ If you find this project useful in your research, please consider cite:
     year={2023}
 }
 ``` 
-# License
+<h2 id="license"> 🎫 License <a href="#table-of-contents">🔝</a> </h2>
 This project is released under the [None]().
