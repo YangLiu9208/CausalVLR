@@ -57,7 +57,7 @@ pip install CausalVLR
 
 # Documentation
 
-Please kindly refer to [CausalVLR Doc](https://link.springer.com/article/10.1007/s11633-022-1362-z) for detailed tutorials and usages.
+Please kindly refer to [CausalVLR](https://arxiv.org/pdf/2306.17462.pdf) for detailed tutorials and usages.
 
 # Running examples
 
@@ -173,10 +173,10 @@ We are always targeting to make our community better!
 ### Citation
 If you find this project useful in your research, please consider cite:    
 ```
-@misc{2023CausalVLR,
-    title={CausalVLR: A Toolbox and Benchmark for Visual-Linguistic Causal Reasoning},
-    author={CausalVLR Contributors},
-    howpublished = {\url{https://github.com/HCPLab-SYSU/CausalVLR/}},
-    year={2023}
+@article{CausalVLR,
+  title={CausalVLR: A Toolbox and Benchmark for Visual-Linguistic Causal Reasoning},
+  author={Liu, Yang and Chen, Weixing and Li, Guanbin and Lin, Liang},
+  journal={arXiv preprint arXiv:2306.17462},
+  year={2023}
 }
 ``` 
