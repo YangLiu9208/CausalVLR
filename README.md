@@ -176,7 +176,7 @@ If you find this project useful in your research, please consider cite:
 @misc{2023CausalVLR,
     title={CausalVLR: A Toolbox and Benchmark for Visual-Linguistic Causal Reasoning},
     author={CausalVLR Contributors},
-    howpublished = {\url{https://github.com/YangLiu9208/Causal-VLReasoning}},
+    howpublished = {\url{https://github.com/HCPLab-SYSU/CausalVLR/}},
     year={2023}
 }
 ``` 
