@@ -1,13 +1,16 @@
-
 <div align="center">
   <div align="center">
       <a href="https://www.sysu-hcp.net/">
-      <img src="Images/hcp.png" width="350"/>
+      <img src="Images/HCP.png" width="400"/>
       </a>
     <a href="">
-    <img src="Images/CVLR.png" width="350"/>
+    <img src="Images/LOGO.png" width="400"/>
     </a>
   </div>
+    </div>
+
+CausalVLR is a python open-source framework for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, such as VQA, Image/Video Captioning, Model Generalization and Robustness, Medical Report Generation, etc. 
+
 
   
 [![PyPI](https://img.shields.io/pypi/v/0.0.1)]()
@@ -47,6 +50,7 @@ Causal-VLR is a python open-source framework based on PyTorch for causal relatio
 <p> </p>
 </div>
 
+
 <div align="center"><font size=5>
 Framework Overview
 </font>
@@ -57,16 +61,17 @@ Framework Overview
 <details open>
 <summary>Major features</summary>
 
-- **Modular Design**
 
+- **Modular Design**
+  
   We decompose the causal framework of visual-linguistic tasks into different components and one can easily construct a customized causal-reasoning framework by combining different modules.
 
 - **Support of multiple tasks**
-
+  
   The toolbox directly supports multiple visual-linguistic reasoning tasks such as **VQA**, **Image/Video Caption**, **Medical Report Generation**, **Model Generalization and Robustness** and so on.
 
 - **State of the art**
-
+  
   The toolbox stems from the codebase developed by the HCPLab team, who dedicated to solving a variety of complex logic tasks through causal reasoning, and we keep pushing it forward.
 
 </details>
@@ -211,7 +216,6 @@ A Review paper for causal reasoning and visual representation learning
   pages={1--27},
   year={2022},
   publisher={Springer}
-}
 ```
 
 
