@@ -86,7 +86,7 @@ Framework Overview
 - Support [**VLCI**](projects/VLCI/readme.md) for Medical Report Generation task
 - Support [**CAMDA (T-PAMI 2023)**](https://github.com/HCPLab-SYSU/CAMDA) for Causality-Aware Medical Diagnosis task
 - Support [**CMCIR (T-PAMI 2023)**](projects/CMCIR/readme.md) for Event-Level Visual Question Answering task
-- Support [**VCSR (ACM MM 2023)**](projects/VCSR/readme.md) for Visual Causal Scene Discovery task
+- Support [**VCSR (ACM MM 2023)**](projects/VCSR/readme.md) for Video Question Answering task
 - Support [**Robust Fine-tuning (CVPR 2023)**](projects/RobustFinetuning/readme.md) for Model Generalization and Robustness
 ---
 
