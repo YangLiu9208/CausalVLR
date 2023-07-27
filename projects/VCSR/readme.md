@@ -13,4 +13,12 @@ Benchmarks:
   journal={arXiv preprint arXiv:2305.04224},
   year={2023}
 }
+
+@inproceedings{VCSR,
+  title={Visual Causal Scene Refinement for Video Question Answering},
+  author={Wei, Yushen and Liu, Yang and Yan, Hong and Li, Guanbin and Lin, Liang},
+  booktitle={ACM International Conference on Multimedia (ACM MM)},
+  year={2023},
+  organization={ACM}
+}
 ```
