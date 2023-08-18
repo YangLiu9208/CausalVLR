@@ -15,6 +15,7 @@ CausalVLR is a python open-source framework for causal discovery that implements
 
 The framework is actively being developed. Feedbacks (issues, suggestions, etc.) are highly encouraged.
 
+Please find the latest updates at [this page](https://github.com/HCPLab-SYSU/CausalVLR)! 
 # Framework Overview
 
 ![Image](Images/CausalVLReasoning_framework.png)        
