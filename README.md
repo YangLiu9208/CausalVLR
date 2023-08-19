@@ -4,7 +4,7 @@
       <img src="Images/HCP.png" width="400"/>
       </a>
     <a href="">
-    <img src="Images/CVLR.png" width="400"/>
+    <img src="Images/LOGO.png" width="400"/>
     </a>
   </div>
     </div>
@@ -103,7 +103,7 @@ Framework Overview
 
 <div align=center>
 
-![Image](projects/CaCo-CoT/CaCo-CoT_demo.gif)
+![Image](projects/CaCo-CoT/CaCo_demo.gif)
 
 </div>
 
