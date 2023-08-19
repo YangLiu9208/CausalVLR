@@ -3,7 +3,7 @@
 
 [Visual-Linguistic Causal Intervention for Radiology Report Generation](https://github.com/WissingChen/VLCI)       
 Benchmarks:    
-[IU-Xray](https://pubmed.ncbi.nlm.nih.gov/26133894/), [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/#files-panel) datasets.    
+IU-Xray, MIMIC-CXR datasets.    
 
 ## Citation    
 ```
