@@ -46,7 +46,7 @@ CausalVLR is a python open-source framework for causal relation discovery, causa
 
 <h2 id="introduction">📚 Introduction <a href="#table-of-contents">🔝</a> </h2>
 <div>
-Causal-VLR is a python open-source framework based on PyTorch for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, detail see on <a hraf="">Documentation</a>.
+CausalVLR is a python open-source framework based on PyTorch for causal relation discovery, causal inference that implements state-of-the-art causal learning algorithms for various visual-linguistic reasoning tasks, detail see on <a hraf="">Documentation</a>.
 <p> </p>
 </div>
 
@@ -81,6 +81,11 @@ Framework Overview
 
 <h2 id="whats-new">🚀 What's New <a href="#table-of-contents">🔝</a> </h2>
 
+
+### 🔥 **2023.8.19**.
+- **v0.0.2** was released in 8/19/2023
+- Support [**CaCo-CoT**](projects/CaCo-COT/readme.md) for Faithful Reasoning task in LLMs
+
 ### 🔥 **2023.6.29**.
 - **v0.0.1** was released in 6/30/2023
 - Support [**VLCI**](projects/VLCI/readme.md) for Medical Report Generation task
@@ -88,14 +93,39 @@ Framework Overview
 - Support [**CMCIR (T-PAMI 2023)**](projects/CMCIR/readme.md) for Event-Level Visual Question Answering task
 - Support [**VCSR (ACM MM 2023)**](projects/VCSR/readme.md) for Video Question Answering task
 - Support [**Robust Fine-tuning (CVPR 2023)**](projects/RobustFinetuning/readme.md) for Model Generalization and Robustness
+
 ---
 
 <div>
 <br>
 
+### ✨  **CaCo-CoT**-Towards CausalGPT: Multiple-consistency Improves Causality in Large Language Models
+
+<div align=center>
+
+![Image](projects/CaCo-CoT/CaCo_demo.gif)
+
+</div>
+
+<div align="center">
+
+| Method   | ScienceQA| Com2sence | BoolQ     |
+|:----:    |:-----:|:-----:|:-----:|
+| GPT-3.5-turbo | 79.3 | 70.1|71.7|
+| CoT | 78.4|63.6|71.1|
+| SC-CoT | 84.0|66.0|71.4|
+| C-CoT | 82.5|68.8|70.5|
+| CaCo-CoT | 86.5|73.5|73.5|
+</div>
+
+
 ### ✨  **VLCI**-Visual Causal Intervention for Radiology Report Generation
 
-![Image](projects/VLCI/demo1.png)
+<div align=center>
+
+![Image](projects/VLCI/vlci_demo.gif)
+
+</div>
 
 <div align="center">
 
@@ -104,6 +134,7 @@ Framework Overview
 | IU-Xray   | 50.5 | 33.4 | 24.5 | 18.9 | 20.4  | 39.7 |  45.6  |
 | MIMIC-CXR | 39.6 | 24.3 | 16.3 | 11.7 | 14.9  | 28.1 | 15.7|
 </div>
+
 </div>
 
 <!-- div align="center">
@@ -116,8 +147,12 @@ Framework Overview
 <br>
 
 ### ✨  **CMCIR**-Cross-modal Causal Intervention for Event-level Video Question Answering
-![Image](projects/CMCIR/demo1.png)
 
+<div align=center>
+
+![Image](projects/CMCIR/CMCIR_demo.gif)
+
+</div>
 <!-- div>
 
 | Dataset   | What | Why  | How  | When | Where | All  |
@@ -138,21 +173,21 @@ Framework Overview
 </div>
 
 <h2 id="get-started">👨‍🏫 Getting Started <a href="#table-of-contents">🔝</a> </h2>
-Please see Overview for the general introduction of <a hraf="">Causal-VLR</a>.
+Please see Overview for the general introduction of <a hraf="">CausalVLR</a>.
 
 For detailed user guides and advanced guides, please refer to our [documentation](), and here is the code structure of toolbox.
 
   
-![Image](Images/framework.png) 
+![Image](Images/framework.gif) 
 
 ## Installation
 
 Please refer to Installation for [installation]("doc") instructions in documentation.
 
-Briefly, to use Causal-VLR, we could install it using [pip](https://pypi.org/project/Causal-VLR/):
+Briefly, to use CausalVLR, we could install it using [pip](https://pypi.org/project/CausalVLR/):
 
 ```
-pip install Causal-VLR
+pip install CausalVLR
 ```
 
 ## Running examples
@@ -173,6 +208,8 @@ Please feel free to let us know if you have any recommendation regarding dataset
 | VQA |  CMCIR     |  [SUTD-TrafficQA](https://sutdcv.github.io/SUTD-TrafficQA/#/), [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA](https://github.com/xudejing/video-question-answering), [MSRVTT-QA](https://github.com/xudejing/video-question-answering)        |
 | Visual Causal Scene Discovery |  VCSR     |    [NExT-QA](https://github.com/doc-doc/NExT-QA), [Causal-VidQA](https://github.com/bcmi/Causal-VidQA), and [MSRVTT-QA](https://github.com/xudejing/video-question-answering)       |
 | Model Generalization and Robustness |  Robust Fine-tuning     |    ImageNet-V2, ImageNet-R, ImageNet-Sketch, ObjectNet, ImageNet-A      |
+| Causality-Aware Medical Diagnosis |  CAMDA     | [MuZhi](https://aclanthology.org/P18-2033.pdf), [DingXiang](https://github.com/fantasySE/Dialogue-System-for-Automatic-Diagnosis)        |
+| Faithful Reasoning in LLMs |  CaCo-CoT     | [ScienceQA](https://scienceqa.github.io/), [Com2Sense](https://github.com/PlusLabNLP/Com2Sense), [BoolQ](https://github.com/google-research-datasets/boolean-questions)|
 </div>
 
 <h2 id="license"> 🎫 License <a href="#table-of-contents">🔝</a> </h2>
@@ -200,7 +237,7 @@ We are always targeting to make our community better!
 
 <h2 id="acknowledgement"> 🤝 Acknowledgement <a href="#table-of-contents">🔝</a> </h2>
 
-Causal-VLR is an open-source project and We appreciate all the contributors who implement their methods or add new features and users who give valuable feedback. We wish that the toolbox and benchmark could serve the growing research community by providing a flexible toolkit to reimplement existing methods and develop their new models.
+CausalVLR is an open-source project and We appreciate all the contributors who implement their methods or add new features and users who give valuable feedback. We wish that the toolbox and benchmark could serve the growing research community by providing a flexible toolkit to reimplement existing methods and develop their new models.
 
 <h3> 🪐 The review paper here can provide some help </h3>
 
@@ -210,13 +247,19 @@ A Review paper for causal reasoning and visual representation learning
 ![Image](Images/MIR.png)    
 
 ```
-@article{liu2022causal,
+@article{
+  liu2022causal,
   title={Causal Reasoning Meets Visual Representation Learning: A Prospective Study},
   author={Liu, Yang and Wei, Yu-Shen and Yan, Hong and Li, Guan-Bin and Lin, Liang},
   journal={Machine Intelligence Research},
   pages={1--27},
   year={2022},
   publisher={Springer}
+  }
 ```
 
+<h2 id="citation">🏗️ Projects in HCPLab<a href="#table-of-contents">🔝</a> </h2>
 
+
+- [HCP-Diffusion](https://github.com/7eu7d7/HCP-Diffusion)
+  is a toolbox for Stable Diffusion models based on 🤗 Diffusers. It facilitates flexiable configurations and component support for training, in comparison with webui and sd-scripts.
